@@ -1,10 +1,10 @@
 .icon {
-	display: inline-block;
-	width: 1em;
-	height: 1em;
-	stroke-width: 0;
-	stroke: currentColor;
-	fill: currentColor;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 /* ==========================================
@@ -16,7 +16,7 @@ Single-colored icons can be modified like so:
 ========================================== */
 
 .icon-Group {
-	width: 0.9375em;
+  width: 0.9375em;
 }
 
 
@@ -167,6 +167,7 @@ a {
 	color: #ffffff;
 	cursor: pointer;
 	background-color: #4d5ae5;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .font__link-text:hover {
 	background-color: #404bbf;
@@ -245,7 +246,7 @@ a {
 	display: flex;
 	gap: 24px;
 }
-.team-section__list li:first-child {
+.team-section__list>li {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-section__text {
@@ -292,7 +293,7 @@ a {
 .team-section__text__сonstacts-link:focus {
 	background-color: #404bbf;
 }
-.team-section__text__сonstacts-svg{
+.team-section__text__сonstacts-svg {
 	fill: #f4f4fd;
 }
 .portfolio-section {
